@@ -1,0 +1,72 @@
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:02.466Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:02.469Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:03.166Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:03.169Z'
+}
+{
+  message: 'Received POST request to /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:49.532Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:49.533Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":201,"message":"User registered successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk2NzgzMjksImV4cCI6MTczOTY3OTIyOX0.TQzmQAaMG1h6BMvxpvIfS8k0GqRrhYgQDU1E9X2Nk80"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:49.833Z'
+}
+{
+  message: 'Received POST request to /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:55.157Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:55.157Z'
+}
+{
+  message: 'Response from identity service, {"status":400,"success":false,"message":"User already exists","data":{},"error":{"stack":"Error: User already exists\\n    at AuthService.register (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\services\\\\auth\\\\auth-service.ts:23:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async AuthController.registerUser (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\controllers\\\\auth\\\\auth-controller.ts:18:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\routes\\\\v1\\\\auth\\\\auth-router.ts:9:3)","status":400,"message":"User already exists"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T03:58:55.209Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T04:35:05.083Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T04:35:05.086Z'
+}
