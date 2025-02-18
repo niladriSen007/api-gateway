@@ -70,3 +70,2865 @@
   service: 'api-gateway',
   timestamp: '2025-02-16T04:35:05.086Z'
 }
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T08:25:07.872Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T08:25:07.875Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T08:25:08.533Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T08:25:08.535Z'
+}
+{
+  message: 'Received POST request to /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T08:26:08.642Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T08:26:08.643Z'
+}
+{
+  message: 'Response from identity service, {"status":400,"success":false,"message":"User already exists","data":{},"error":{"stack":"Error: User already exists\\n    at AuthService.register (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\services\\\\auth\\\\auth-service.ts:23:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async AuthController.registerUser (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\controllers\\\\auth\\\\auth-controller.ts:18:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\routes\\\\v1\\\\auth\\\\auth-router.ts:9:3)","status":400,"message":"User already exists"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T08:26:08.732Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T08:26:09.495Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T08:26:09.498Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:15:18.051Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:15:18.051Z'
+}
+{
+  message: 'Response from identity service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/auth/login</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:15:18.099Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:15:58.810Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:15:58.811Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk2OTczNTgsImV4cCI6MTczOTY5ODI1OH0.M8gjka6V52RrcJeuZptrvwpUb4gCNnaCF8ILDt90AXg"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:15:59.092Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:17:41.135Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:17:41.138Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:18:55.920Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:18:55.921Z'
+}
+{
+  message: 'read ECONNRESET',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:18:56.148Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:19:13.098Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:19:13.098Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk2OTc1NTMsImV4cCI6MTczOTY5ODQ1M30.HGTCHf6ukBjNHLdOjeOu-YTyg0s9_xlQwvhOiUrdcfI"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:19:13.335Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:42:55.521Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:42:55.521Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk2OTg5NzUsImV4cCI6MTczOTY5OTg3NX0.Xg3CyqRHas3UW95v78g62XO3ITrKH2xul4MYhaSa3L4","refreshToken":"04f6f504bb671fcd0332a6c0f662435623d2a5ba7f947ebe9c89a1c087d7d131"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:42:55.811Z'
+}
+{
+  message: 'Received PUT request to /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:09.773Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:09.773Z'
+}
+{
+  message: 'Response from identity service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot PUT /api/v1/auth/refresh-token</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:09.795Z'
+}
+{
+  message: 'Received POST request to /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:15.140Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:15.140Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"Token refreshed successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk2OTkxMTUsImV4cCI6MTczOTcwMDAxNX0.cASaSPrTmbLXaxkyl98ms1iMpE2YsWv340cNiZrN5Co"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:15.888Z'
+}
+{
+  message: 'Received POST request to /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:44.022Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:44.023Z'
+}
+{
+  message: 'Response from identity service, {"status":400,"success":false,"message":"Refresh token not found","data":{},"error":{"stack":"Error: Refresh token not found\\n    at AuthService.refreshToken (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\services\\\\auth\\\\auth-service.ts:54:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async AuthController.refreshToken (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\controllers\\\\auth\\\\auth-controller.ts:62:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\routes\\\\v1\\\\auth\\\\auth-router.ts:17:3)","status":400,"message":"Refresh token not found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:44.133Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:48.676Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:48.676Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk2OTkxNDgsImV4cCI6MTczOTcwMDA0OH0.lWL2amL9mAnaVD982cB7Me0Oo_UhTCjDua1TDK_xVnY","refreshToken":"1066a6b4a3a29cc746a222967b9a01d4ae7d89aef7456887253adbebceae784d"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:45:48.914Z'
+}
+{
+  message: 'Received POST request to /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:46:02.591Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:46:02.591Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"Token refreshed successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk2OTkxNjIsImV4cCI6MTczOTcwMDA2Mn0.iVbU9ZpFNOhyenlKvnI-zZHqC1jxEW3bWJq3UkWFbCc","refreshToken":"185e33009f85ab6b173c3ab9c9d4774f3475a1e82fda0376a0e1842df01f6bfe"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:46:02.823Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:56:50.802Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:56:50.803Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk2OTk4MTAsImV4cCI6MTczOTcwMDcxMH0.QNFoVFPmTgkvD0xvcw3HriTqMkYCwaddbymbwJiVOKA","refreshToken":"786ef7100a7df9ac01377c704d92677ccfaf42a2a6efa4057fb6a0cf0831b1d1"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:56:51.114Z'
+}
+{
+  message: 'Received POST request to /v1/auth/logout',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:57:42.497Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:57:42.498Z'
+}
+{
+  message: 'Response from identity service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/auth/logout</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:57:42.502Z'
+}
+{
+  message: 'Received POST request to /v1/auth/logout',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:02.256Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:02.256Z'
+}
+{
+  message: 'Response from identity service, {"status":400,"success":false,"message":"this.authService.logoutUser is not a function","data":{},"error":{"stack":"TypeError: this.authService.logoutUser is not a function\\n    at AuthController.logoutUser (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\controllers\\\\auth\\\\auth-controller.ts:84:43)\\n    at <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\routes\\\\v1\\\\auth\\\\auth-router.ts:21:24)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at next (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:149:13)\\n    at Route.dispatch (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:119:3)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:284:15\\n    at Function.process_params (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:346:12)\\n    at next (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:280:10)\\n    at Function.handle (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:175:3)","status":400,"message":"this.authService.logoutUser is not a function"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:02.286Z'
+}
+{
+  message: 'Received POST request to /v1/auth/logout',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:23.395Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:23.395Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged out successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:23.559Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:28.571Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:28.572Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk2OTk5MDgsImV4cCI6MTczOTcwMDgwOH0.m_r_33ICGc_LQ6JakFY0ZUJ9hgHT1yySUGWxTwzdm1A","refreshToken":"20ca556bbc40b13f6c465bf95d627af4c05616d8178c84733e28a70a46456e22"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:28.786Z'
+}
+{
+  message: 'Received POST request to /v1/auth/logout',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:44.274Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:44.274Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged out successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:44.401Z'
+}
+{
+  message: 'Received POST request to /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:50.436Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:50.436Z'
+}
+{
+  message: 'Response from identity service, {"status":400,"success":false,"message":"Refresh token not found","data":{},"error":{"stack":"Error: Refresh token not found\\n    at AuthService.refreshToken (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\services\\\\auth\\\\auth-service.ts:55:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async AuthController.refreshToken (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\controllers\\\\auth\\\\auth-controller.ts:62:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\routes\\\\v1\\\\auth\\\\auth-router.ts:17:3)","status":400,"message":"Refresh token not found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:50.517Z'
+}
+{
+  message: 'Received POST request to /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:58.313Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:58.314Z'
+}
+{
+  message: 'Response from identity service, {"status":400,"success":false,"message":"Refresh token not found","data":{},"error":{"stack":"Error: Refresh token not found\\n    at AuthService.refreshToken (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\services\\\\auth\\\\auth-service.ts:55:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async AuthController.refreshToken (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\controllers\\\\auth\\\\auth-controller.ts:62:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\routes\\\\v1\\\\auth\\\\auth-router.ts:17:3)","status":400,"message":"Refresh token not found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:58:58.412Z'
+}
+{
+  message: 'Received POST request to /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:59:03.490Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:59:03.490Z'
+}
+{
+  message: 'Response from identity service, {"status":400,"success":false,"message":"\\"refreshToken\\" is not allowed to be empty","data":{},"error":{"stack":"Error: \\"refreshToken\\" is not allowed to be empty\\n    at AuthService.refreshToken (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\services\\\\auth\\\\auth-service.ts:55:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async AuthController.refreshToken (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\controllers\\\\auth\\\\auth-controller.ts:62:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\identity-service\\\\src\\\\routes\\\\v1\\\\auth\\\\auth-router.ts:17:3)","status":400,"message":"\\"refreshToken\\" is not allowed to be empty"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:59:03.497Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:48:57.690Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:48:57.692Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:48:57.693Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:48:58.619Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:48:58.622Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:48:58.623Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:52:06.427Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:52:06.428Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk4MTgzMjYsImV4cCI6MTczOTgxOTIyNn0.Jyn_g8q5vsANCI9L08Fj0VHx5C0ybCZwqk0gU8-U3uQ","refreshToken":"2249b43d798cd039140c28c366b9820e2055162bc874e587a75ed3871f4c22c9"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:52:06.739Z'
+}
+{
+  message: 'Received POST request to /v1/auth/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:52:36.593Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:52:36.594Z'
+}
+{
+  message: 'Response from identity service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/auth/post</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:52:36.600Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:54:30.807Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:54:30.808Z'
+}
+{
+  message: 'Access attempt without valid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:54:30.808Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:54:47.494Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:54:47.494Z'
+}
+{
+  message: 'Invalid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:54:47.498Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:54:53.099Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:54:53.099Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk4MTg0OTMsImV4cCI6MTczOTgxOTM5M30.Nna5t56lqo7O8gZveUN78ulTTGcYNpq9fKlRvccd6Xs","refreshToken":"5e79d3acac17e40232f440899a74937afd623501824125f114f59e0de1499cef"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:54:53.424Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:55:06.812Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:55:06.813Z'
+}
+{
+  message: 'Invalid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:55:06.814Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:01.151Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:01.174Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:01.175Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:06.087Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:06.089Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:06.090Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:07.263Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:07.265Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:07.265Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:19.428Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:19.431Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:19.431Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:22.936Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:22.937Z'
+}
+{
+  message: 'Invalid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:56:22.940Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:21.572Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:21.574Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:21.575Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:27.849Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:27.849Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:27.854Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:31.263Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:31.264Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:31.266Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:32.790Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:32.791Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:32.792Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:01.917Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:01.960Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:01.977Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:17.586Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:17.588Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk4MTkwNTcsImV4cCI6MTczOTgxOTk1N30.fBHV6BRPb04ePlgg0MkSVs2MTzRM2204mVBO0k8jcfk","refreshToken":"9a421d8a3f8074593da0e5cf7ad1842b71ac661917cd3e29ce21a37b331f0123"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:18.056Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:27.503Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:27.504Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:27.507Z'
+}
+{
+  message: 'Received POST request to /api/v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:05:28.895Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:05:28.898Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:06:51.169Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:06:51.169Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:06:51.171Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:13.709Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:13.712Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:13.713Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:17.380Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:17.384Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:17.384Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:18.202Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:18.204Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:18.204Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:21.782Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:21.785Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:21.786Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:25.464Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:25.465Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:25.469Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:08.880Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:08.880Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:08.882Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:15.753Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:15.757Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:15.757Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:17.910Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:17.913Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:17.914Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:19.283Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:19.286Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:19.286Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:20.346Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:20.349Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:20.349Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:28.966Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:28.967Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:28.972Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:44.766Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:44.768Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:44.769Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:47.406Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:47.409Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:47.409Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:48.305Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:48.307Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:48.307Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:50.094Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:50.096Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:50.096Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:22.606Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:22.606Z'
+}
+{
+  message: 'Response from post service, Unauthorized',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:22.621Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:24.192Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:24.192Z'
+}
+{
+  message: 'Response from post service, Unauthorized',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:24.198Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:29.122Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:29.122Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk4MTkzNjksImV4cCI6MTczOTgyMDI2OX0.RLnZ7fxI3ipA7M88u5qrNHYzaJbk9OLPS2d4L4yBj7Q","refreshToken":"34bb4c38442978bf375e0ead0495203053f181663f1ad8f131e1810e04e6ed86"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:29.428Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:37.691Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:37.691Z'
+}
+{
+  message: 'Response from post service, Unauthorized',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:37.697Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:44.219Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:44.220Z'
+}
+{
+  message: 'Response from post service, Unauthorized',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:09:44.227Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:10:36.208Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:10:36.208Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hi","mediaIds":[],"_id":"67b389ac902d7ab5614db04c","createdAt":"2025-02-17T19:10:36.234Z","updatedAt":"2025-02-17T19:10:36.234Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:10:36.298Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:19:19.869Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:19:19.870Z'
+}
+{
+  message: 'Access attempt without valid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:19:19.870Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:19:33.094Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:19:33.095Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:19:33.166Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:21:09.737Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:21:09.738Z'
+}
+{
+  message: 'Access attempt without valid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:21:09.738Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:21:22.097Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:21:22.097Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":[{"_id":"67b388bd420ead51d1d2529f","user":"67b162792ece6e5704acebd9","content":"Hi","mediaIds":[],"createdAt":"2025-02-17T19:06:37.087Z","updatedAt":"2025-02-17T19:06:37.087Z","__v":0},{"_id":"67b389ac902d7ab5614db04c","user":"67b162792ece6e5704acebd9","content":"Hi","mediaIds":[],"createdAt":"2025-02-17T19:10:36.234Z","updatedAt":"2025-02-17T19:10:36.234Z","__v":0}],"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:21:22.195Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:35.422Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:35.422Z'
+}
+{
+  message: 'Invalid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:35.424Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:43.125Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:43.125Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk4MjAyODMsImV4cCI6MTczOTgyMTE4M30.qkAO3uLFxFV8kfYWSUAi_CyJFUjPe289jATP29Wjszk","refreshToken":"01b4e4ebb93833dc6da801a131c7a8545728e33b1e6181b5b8544a71a0a9d149"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:43.414Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:52.747Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:52.747Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:52.827Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:57.897Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:57.897Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:24:57.954Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:21.134Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:21.134Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:21.222Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:22.413Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:22.413Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:22.471Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:23.346Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:23.347Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:23.403Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554455',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:27.034Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:27.034Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:27.091Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554455',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:28.225Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:28.226Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:28.285Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554455',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:35.617Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:35.617Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:35.679Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554455',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:45.170Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:45.170Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:45.255Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554455',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:46.475Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:46.475Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:46.526Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c23554455',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:47.719Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:47.720Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:27:47.769Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c2355445545',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:28:02.364Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:28:02.365Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:28:02.424Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c2355445545',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:28:45.996Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:28:45.996Z'
+}
+{
+  message: 'Response from post service, {"status":400,"success":false,"message":"Post with id: undefined not found","data":{},"error":{"stack":"Error: Post with id: undefined not found\\n    at PostService.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\services\\\\post\\\\post-service.ts:62:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async PostController.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\controllers\\\\post\\\\post-controller.ts:77:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\routes\\\\v1\\\\post\\\\post-router.ts:21:3)","status":404,"message":"Not Found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:28:46.073Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b388bd420ead51d1d2529f',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:29:13.144Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:29:13.144Z'
+}
+{
+  message: 'Response from post service, {"status":400,"success":false,"message":"Post with id: undefined not found","data":{},"error":{"stack":"Error: Post with id: undefined not found\\n    at PostService.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\services\\\\post\\\\post-service.ts:62:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async PostController.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\controllers\\\\post\\\\post-controller.ts:77:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\routes\\\\v1\\\\post\\\\post-router.ts:21:3)","status":404,"message":"Not Found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:29:13.196Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b388bd420ead51d1d2529f',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:29:19.109Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:29:19.110Z'
+}
+{
+  message: 'Response from post service, {"status":400,"success":false,"message":"Post with id: undefined not found","data":{},"error":{"stack":"Error: Post with id: undefined not found\\n    at PostService.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\services\\\\post\\\\post-service.ts:62:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async PostController.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\controllers\\\\post\\\\post-controller.ts:77:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\routes\\\\v1\\\\post\\\\post-router.ts:21:3)","status":404,"message":"Not Found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:29:19.155Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b388bd420ead51d1d2529f1',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:15.115Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:15.116Z'
+}
+{
+  message: 'Response from post service, {"status":400,"success":false,"message":"Cast to ObjectId failed for value \\"67b388bd420ead51d1d2529f1\\" (type string) at path \\"_id\\" for model \\"Post\\"","data":{},"error":{"stack":"Error: Cast to ObjectId failed for value \\"67b388bd420ead51d1d2529f1\\" (type string) at path \\"_id\\" for model \\"Post\\"\\n    at PostService.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\services\\\\post\\\\post-service.ts:62:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async PostController.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\controllers\\\\post\\\\post-controller.ts:77:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\routes\\\\v1\\\\post\\\\post-router.ts:21:3)","status":404,"message":"Not Found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:15.146Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b388bd420ead51d1d2529f',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:21.513Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:21.513Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{"_id":"67b388bd420ead51d1d2529f","user":"67b162792ece6e5704acebd9","content":"Hi","mediaIds":[],"createdAt":"2025-02-17T19:06:37.087Z","updatedAt":"2025-02-17T19:06:37.087Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:21.637Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b388bd420ead51d1d2529f4',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:27.186Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:27.186Z'
+}
+{
+  message: 'Response from post service, {"status":400,"success":false,"message":"Cast to ObjectId failed for value \\"67b388bd420ead51d1d2529f4\\" (type string) at path \\"_id\\" for model \\"Post\\"","data":{},"error":{"stack":"Error: Cast to ObjectId failed for value \\"67b388bd420ead51d1d2529f4\\" (type string) at path \\"_id\\" for model \\"Post\\"\\n    at PostService.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\services\\\\post\\\\post-service.ts:62:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async PostController.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\controllers\\\\post\\\\post-controller.ts:77:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\routes\\\\v1\\\\post\\\\post-router.ts:21:3)","status":404,"message":"Not Found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:27.196Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b388bd420ead51d1d2529f4',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:49.382Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:49.383Z'
+}
+{
+  message: 'Response from post service, {"status":400,"success":false,"message":"Cast to ObjectId failed for value \\"67b388bd420ead51d1d2529f4\\" (type string) at path \\"_id\\" for model \\"Post\\"","data":{},"error":{"stack":"Error: Cast to ObjectId failed for value \\"67b388bd420ead51d1d2529f4\\" (type string) at path \\"_id\\" for model \\"Post\\"\\n    at PostService.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\services\\\\post\\\\post-service.ts:62:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async PostController.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\controllers\\\\post\\\\post-controller.ts:77:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\routes\\\\v1\\\\post\\\\post-router.ts:21:3)","status":404,"message":"Not Found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:49.412Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b388bd420ead51d1d2529f4',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:50.419Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:50.420Z'
+}
+{
+  message: 'Response from post service, {"status":400,"success":false,"message":"Cast to ObjectId failed for value \\"67b388bd420ead51d1d2529f4\\" (type string) at path \\"_id\\" for model \\"Post\\"","data":{},"error":{"stack":"Error: Cast to ObjectId failed for value \\"67b388bd420ead51d1d2529f4\\" (type string) at path \\"_id\\" for model \\"Post\\"\\n    at PostService.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\services\\\\post\\\\post-service.ts:62:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async PostController.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\controllers\\\\post\\\\post-controller.ts:77:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\routes\\\\v1\\\\post\\\\post-router.ts:21:3)","status":404,"message":"Not Found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:30:50.427Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c11',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:31:04.794Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:31:04.795Z'
+}
+{
+  message: 'Response from post service, {"status":400,"success":false,"message":"Cast to ObjectId failed for value \\"67b389ac902d7ab5614db04c11\\" (type string) at path \\"_id\\" for model \\"Post\\"","data":{},"error":{"stack":"Error: Cast to ObjectId failed for value \\"67b389ac902d7ab5614db04c11\\" (type string) at path \\"_id\\" for model \\"Post\\"\\n    at PostService.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\services\\\\post\\\\post-service.ts:62:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async PostController.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\controllers\\\\post\\\\post-controller.ts:77:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\routes\\\\v1\\\\post\\\\post-router.ts:21:3)","status":404,"message":"Not Found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:31:04.802Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c11',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:31:06.124Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:31:06.124Z'
+}
+{
+  message: 'Response from post service, {"status":400,"success":false,"message":"Cast to ObjectId failed for value \\"67b389ac902d7ab5614db04c11\\" (type string) at path \\"_id\\" for model \\"Post\\"","data":{},"error":{"stack":"Error: Cast to ObjectId failed for value \\"67b389ac902d7ab5614db04c11\\" (type string) at path \\"_id\\" for model \\"Post\\"\\n    at PostService.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\services\\\\post\\\\post-service.ts:62:13)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async PostController.deletePost (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\controllers\\\\post\\\\post-controller.ts:77:20)\\n    at async <anonymous> (C:\\\\Users\\\\NILADRI\\\\Desktop\\\\node-microservices-advanced\\\\post-service\\\\src\\\\routes\\\\v1\\\\post\\\\post-router.ts:21:3)","status":404,"message":"Not Found"}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:31:06.132Z'
+}
+{
+  message: 'Received DELETE request to /v1/post/67b389ac902d7ab5614db04c',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:31:10.039Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:31:10.040Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post deleted successfully","data":{"_id":"67b389ac902d7ab5614db04c","user":"67b162792ece6e5704acebd9","content":"Hi","mediaIds":[],"createdAt":"2025-02-17T19:10:36.234Z","updatedAt":"2025-02-17T19:10:36.234Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:31:10.098Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:40.529Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:40.529Z'
+}
+{
+  message: 'Invalid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:40.530Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:49.352Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:49.353Z'
+}
+{
+  message: 'read ECONNRESET',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:49.581Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:52.591Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:52.591Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk4MjE0MzIsImV4cCI6MTczOTgyMjMzMn0.J_Ts_A_ZZVIHsfx13sXmBxZtVf-5S1F7os61OUhjL5Y","refreshToken":"001d540fc9ec1ce13beb9e323897077698ba805941895df0196125e72f14e8ed"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:52.872Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:44:04.026Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:44:04.027Z'
+}
+{
+  message: 'Response from post service, {"success":false,"message":"\\"content\\" is not allowed to be empty"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:44:04.036Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:01:24.276Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:01:24.281Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:01:24.283Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:01:25.570Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:01:25.573Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:01:25.575Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:14.661Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:14.677Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:18.735Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:18.742Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:18.743Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:33.240Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:33.241Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk4OTA5NTMsImV4cCI6MTczOTg5MTg1M30.NYvE2vX1WZ15QbHQIiGt0BaAtj2dr-WmimoDvdIJYBk","refreshToken":"3da283e372fa762869c30cc029f8f0f53e040e931c05b0f9d1bae6107d9a13df"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:33.572Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:44.009Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:44.009Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:44.036Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:47.051Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:47.051Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:02:47.069Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:03:29.677Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:03:29.677Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:03:29.683Z'
+}
+{
+  message: 'Received POST request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:03:30.662Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:03:30.662Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:03:30.667Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:07:05.732Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:07:05.732Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk4OTEyMjUsImV4cCI6MTczOTg5MjEyNX0.RqlBEb4_ZH7NjoTy4m_JkyVuG_oXnjm4WD2_7Z7nNRQ","refreshToken":"55c9c8c49fb901d6a7a46760e5043ecbca59e854d968a314dbc5c2fb3f8fbb44"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:07:06.005Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:07:54.259Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:07:54.259Z'
+}
+{
+  message: 'Response from post service, {"success":false,"message":"\\"content\\" is not allowed to be empty"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:07:54.270Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:02.992Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:02.992Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"_id":"67b4a2539f564224c504b605","createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:03.060Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:32.460Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:32.460Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:32.481Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:34.715Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:34.715Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:34.721Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:42.989Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:42.990Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:43.009Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:43.969Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:43.969Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:08:43.973Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:09:07.974Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:09:07.974Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"_id":"67b4a294154c9eefbafe73eb","createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:09:08.057Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:11:52.836Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:11:52.836Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"_id":"67b4a338220d356997c2e568","createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:11:52.927Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:11:54.314Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:11:54.314Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"_id":"67b4a33a220d356997c2e56a","createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:11:54.369Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:35.989Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:35.989Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:36.007Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:37.359Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:37.359Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:37.363Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:38.267Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:38.267Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:38.272Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:39.233Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:39.234Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:39.237Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:39.956Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:39.956Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:39.959Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:40.666Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:40.666Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:40.670Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:48.371Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:48.371Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"_id":"67b4a370f5b134f319b22995","createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:48.458Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:49.614Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:49.615Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"_id":"67b4a371f5b134f319b22997","createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:12:49.667Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:13:12.860Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:13:12.860Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"_id":"67b4a3880e582ec96dc1665a","createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:13:12.940Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:13:13.891Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:13:13.891Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"_id":"67b4a3890e582ec96dc1665c","createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:13:13.945Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:17.921Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:17.921Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:17.949Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:19.010Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:19.010Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot POST /api/v1/post/create</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:19.016Z'
+}
+{
+  message: 'Received POST request to /v1/post/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:26.075Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:26.076Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Post created successfully","data":{"user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"_id":"67b4a40eca3c9c4233739b18","createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:26.476Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:30.475Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:30.476Z'
+}
+{
+  message: 'Invalid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:30.477Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:31.951Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:31.952Z'
+}
+{
+  message: 'Invalid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:31.953Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:39.265Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:39.265Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":{"total":9,"data":[{"_id":"67b4a40eca3c9c4233739b18","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},{"_id":"67b4a3890e582ec96dc1665c","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},{"_id":"67b4a3880e582ec96dc1665a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},{"_id":"67b4a371f5b134f319b22997","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},{"_id":"67b4a370f5b134f319b22995","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},{"_id":"67b4a33a220d356997c2e56a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},{"_id":"67b4a338220d356997c2e568","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},{"_id":"67b4a294154c9eefbafe73eb","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},{"_id":"67b4a2539f564224c504b605","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0}],"currentPage":1,"totalPages":1,"limit":10},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:15:39.377Z'
+}
+{
+  message: 'Received GET request to /v1/post/67b4a33a220d356997c2e56a',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:16:54.572Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:16:54.573Z'
+}
+{
+  message: 'Access attempt without valid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:16:54.573Z'
+}
+{
+  message: 'Received GET request to /v1/post/67b4a33a220d356997c2e56a',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:17:07.959Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:17:07.960Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot GET /api/v1/post/67b4a33a220d356997c2e56a</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:17:07.964Z'
+}
+{
+  message: 'Received GET request to /v1/post/67b4a33a220d356997c2e56a',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:17:14.319Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:17:14.320Z'
+}
+{
+  message: 'Response from post service, <!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '<meta charset="utf-8">\n' +
+    '<title>Error</title>\n' +
+    '</head>\n' +
+    '<body>\n' +
+    '<pre>Cannot GET /api/v1/post/67b4a33a220d356997c2e56a</pre>\n' +
+    '</body>\n' +
+    '</html>\n',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:17:14.324Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:30.005Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:30.005Z'
+}
+{
+  message: 'Invalid token!',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:30.006Z'
+}
+{
+  message: 'Received POST request to /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:34.688Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:34.688Z'
+}
+{
+  message: 'Response from identity service, {"success":true,"status":200,"message":"User logged in successfully","data":{"id":"67b162792ece6e5704acebd9","username":"Niladri","email":"nil@1.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2IxNjI3OTJlY2U2ZTU3MDRhY2ViZDkiLCJ1c2VyRW1haWwiOiJuaWxAMS5jb20iLCJpYXQiOjE3Mzk4OTI1MTQsImV4cCI6MTczOTg5MzQxNH0.gVknD_MZyddc8z2tup2b8bHr06h6V4pvJ1EbOzeZ9n0","refreshToken":"12b62ba1b8ef57340fffefdf99b64dfc0ffc584093b7e549da0291cc615411b3"},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:34.963Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:43.678Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:43.679Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":{"total":9,"data":[{"_id":"67b4a40eca3c9c4233739b18","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},{"_id":"67b4a3890e582ec96dc1665c","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},{"_id":"67b4a3880e582ec96dc1665a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},{"_id":"67b4a371f5b134f319b22997","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},{"_id":"67b4a370f5b134f319b22995","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},{"_id":"67b4a33a220d356997c2e56a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},{"_id":"67b4a338220d356997c2e568","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},{"_id":"67b4a294154c9eefbafe73eb","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},{"_id":"67b4a2539f564224c504b605","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0}],"currentPage":1,"totalPages":1,"limit":10},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:43.803Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:50.357Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:50.357Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":{"total":9,"data":[{"_id":"67b4a40eca3c9c4233739b18","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},{"_id":"67b4a3890e582ec96dc1665c","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},{"_id":"67b4a3880e582ec96dc1665a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},{"_id":"67b4a371f5b134f319b22997","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},{"_id":"67b4a370f5b134f319b22995","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},{"_id":"67b4a33a220d356997c2e56a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},{"_id":"67b4a338220d356997c2e568","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},{"_id":"67b4a294154c9eefbafe73eb","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},{"_id":"67b4a2539f564224c504b605","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0}],"currentPage":1,"totalPages":1,"limit":10},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:50.365Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:51.529Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:51.529Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":{"total":9,"data":[{"_id":"67b4a40eca3c9c4233739b18","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},{"_id":"67b4a3890e582ec96dc1665c","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},{"_id":"67b4a3880e582ec96dc1665a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},{"_id":"67b4a371f5b134f319b22997","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},{"_id":"67b4a370f5b134f319b22995","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},{"_id":"67b4a33a220d356997c2e56a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},{"_id":"67b4a338220d356997c2e568","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},{"_id":"67b4a294154c9eefbafe73eb","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},{"_id":"67b4a2539f564224c504b605","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0}],"currentPage":1,"totalPages":1,"limit":10},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:51.535Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:52.893Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:52.893Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":{"total":9,"data":[{"_id":"67b4a40eca3c9c4233739b18","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},{"_id":"67b4a3890e582ec96dc1665c","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},{"_id":"67b4a3880e582ec96dc1665a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},{"_id":"67b4a371f5b134f319b22997","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},{"_id":"67b4a370f5b134f319b22995","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},{"_id":"67b4a33a220d356997c2e56a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},{"_id":"67b4a338220d356997c2e568","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},{"_id":"67b4a294154c9eefbafe73eb","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},{"_id":"67b4a2539f564224c504b605","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0}],"currentPage":1,"totalPages":1,"limit":10},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:52.900Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:53.853Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:53.853Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":{"total":9,"data":[{"_id":"67b4a40eca3c9c4233739b18","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},{"_id":"67b4a3890e582ec96dc1665c","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},{"_id":"67b4a3880e582ec96dc1665a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},{"_id":"67b4a371f5b134f319b22997","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},{"_id":"67b4a370f5b134f319b22995","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},{"_id":"67b4a33a220d356997c2e56a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},{"_id":"67b4a338220d356997c2e568","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},{"_id":"67b4a294154c9eefbafe73eb","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},{"_id":"67b4a2539f564224c504b605","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0}],"currentPage":1,"totalPages":1,"limit":10},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:53.862Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:54.759Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:54.760Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":{"total":9,"data":[{"_id":"67b4a40eca3c9c4233739b18","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},{"_id":"67b4a3890e582ec96dc1665c","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},{"_id":"67b4a3880e582ec96dc1665a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},{"_id":"67b4a371f5b134f319b22997","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},{"_id":"67b4a370f5b134f319b22995","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},{"_id":"67b4a33a220d356997c2e56a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},{"_id":"67b4a338220d356997c2e568","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},{"_id":"67b4a294154c9eefbafe73eb","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},{"_id":"67b4a2539f564224c504b605","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0}],"currentPage":1,"totalPages":1,"limit":10},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:54.767Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:55.498Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:55.498Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":{"total":9,"data":[{"_id":"67b4a40eca3c9c4233739b18","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},{"_id":"67b4a3890e582ec96dc1665c","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},{"_id":"67b4a3880e582ec96dc1665a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},{"_id":"67b4a371f5b134f319b22997","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},{"_id":"67b4a370f5b134f319b22995","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},{"_id":"67b4a33a220d356997c2e56a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},{"_id":"67b4a338220d356997c2e568","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},{"_id":"67b4a294154c9eefbafe73eb","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},{"_id":"67b4a2539f564224c504b605","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0}],"currentPage":1,"totalPages":1,"limit":10},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:55.505Z'
+}
+{
+  message: 'Received GET request to /v1/post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:56.182Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:56.182Z'
+}
+{
+  message: 'Response from post service, {"success":true,"status":200,"message":"Posts fetched successfully","data":{"total":9,"data":[{"_id":"67b4a40eca3c9c4233739b18","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:15:26.105Z","updatedAt":"2025-02-18T15:15:26.105Z","__v":0},{"_id":"67b4a3890e582ec96dc1665c","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:13.900Z","updatedAt":"2025-02-18T15:13:13.900Z","__v":0},{"_id":"67b4a3880e582ec96dc1665a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:13:12.888Z","updatedAt":"2025-02-18T15:13:12.888Z","__v":0},{"_id":"67b4a371f5b134f319b22997","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:49.623Z","updatedAt":"2025-02-18T15:12:49.623Z","__v":0},{"_id":"67b4a370f5b134f319b22995","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:12:48.403Z","updatedAt":"2025-02-18T15:12:48.403Z","__v":0},{"_id":"67b4a33a220d356997c2e56a","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:54.321Z","updatedAt":"2025-02-18T15:11:54.321Z","__v":0},{"_id":"67b4a338220d356997c2e568","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:11:52.868Z","updatedAt":"2025-02-18T15:11:52.868Z","__v":0},{"_id":"67b4a294154c9eefbafe73eb","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:09:08.003Z","updatedAt":"2025-02-18T15:09:08.003Z","__v":0},{"_id":"67b4a2539f564224c504b605","user":"67b162792ece6e5704acebd9","content":"Hello","mediaIds":[],"createdAt":"2025-02-18T15:08:03.005Z","updatedAt":"2025-02-18T15:08:03.005Z","__v":0}],"currentPage":1,"totalPages":1,"limit":10},"errors":{}}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T15:28:56.187Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T16:02:07.498Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T16:02:07.501Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T16:02:07.501Z'
+}
+{
+  message: 'Server running on port 4000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T16:02:08.251Z'
+}
+{
+  message: 'Identity service running on http://localhost:5000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T16:02:08.253Z'
+}
+{
+  message: 'Post service running on http://localhost:6000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-02-18T16:02:08.254Z'
+}

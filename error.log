@@ -1,0 +1,60 @@
+{
+  message: 'read ECONNRESET',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-16T09:18:56.148Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:27.854Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:31.266Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T18:58:32.792Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:04:27.507Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:06:51.171Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:07:25.469Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:08.882Z'
+}
+{
+  message: 'Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:08:28.972Z'
+}
+{
+  message: 'read ECONNRESET',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-17T19:43:49.581Z'
+}

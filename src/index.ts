@@ -1,6 +1,6 @@
-import { NextFunction } from 'express';
+
 import cors from 'cors'; // Import the cors middleware
-import express, { Request, Response } from 'express';
+import express, { Request, Response,NextFunction, RequestHandler  } from 'express';
 import { rateLimit } from 'express-rate-limit';
 import helmet from 'helmet';
 import { StatusCodes } from 'http-status-codes';
@@ -11,10 +11,11 @@ import { errorResponse } from './utils/common/error-response';
 import proxy from "express-http-proxy"
 import { errorHandler } from './middleware/error-handler';
 import { IncomingMessage } from 'http';
+import { validateAuthentication } from './middleware/auth-middleware';
 
 
 const { config_env } = config;
-const { PORT, NODE_ENV, REDIS_URI, IDENTITY_SERVICE_URL } = config_env;
+const { PORT, NODE_ENV, REDIS_URI, IDENTITY_SERVICE_URL, POST_SERVICE_URL } = config_env;
 
 
 const app = express();
@@ -90,10 +91,28 @@ app.use("/v1/auth", proxy(IDENTITY_SERVICE_URL, {
 }))
 
 
+app.use("/v1/post",
+  validateAuthentication as RequestHandler,
+  proxy(POST_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts: any, srcReq: Request) => {
+      console.log(srcReq.user)
+      proxyReqOpts.headers["Content-Type"] = "application/json";
+      proxyReqOpts.headers['x-user-id'] = srcReq?.user?.userId; 
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes: IncomingMessage, proxyResData: any, userReq: Request, userRes: Response) => {
+      config.logger.info(`Response from post service, ${proxyResData}`);
+      return proxyResData;
+    }
+  }))
+
+
 app.use(errorHandler)
 
 
 app.listen(PORT, () => {
   config.logger.info(`Server running on port ${PORT}`)
   config.logger.info(`Identity service running on ${IDENTITY_SERVICE_URL}`)
+  config.logger.info(`Post service running on ${POST_SERVICE_URL}`)
 })
