@@ -58,3 +58,81 @@
   service: 'api-gateway',
   timestamp: '2025-02-17T19:43:49.581Z'
 }
+{
+  message: 'read ECONNRESET',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:50:00.903Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:50:03.105Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:50:36.392Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:50:37.610Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:50:39.117Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:50:40.589Z'
+}
+{
+  message: 'read ECONNRESET',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:51:18.821Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:51:20.702Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:51:22.177Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:51:47.228Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T05:51:48.156Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T09:26:00.613Z'
+}
+{
+  message: '',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-02-22T09:26:02.429Z'
+}
